@@ -15,5 +15,5 @@ elif 27 <= bmi < 30:
     print("輕度肥胖")
 elif 30 <= bmi < 35:
     print("中度肥胖")
-else
+else+
     print("重度肥胖")
