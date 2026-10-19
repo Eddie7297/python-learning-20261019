@@ -10,4 +10,10 @@ if bmi < 18.5:
 elif 18.5 <= bmi < 24:
     print("體重正常")
 elif 24 <= bmi < 27:
-    print("體重
+    print("體重過重")
+elif 27 <= bmi < 30:
+    print("輕度肥胖")
+elif 30 <= bmi < 35:
+    print("中度肥胖")
+else:
+    print("重度肥胖")
